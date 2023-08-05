@@ -1,3 +1,4 @@
+// ! PARENT CLASS of Footer, Header, and Hero.js
 import { useState, useEffect } from 'react';
 import './App.scss';
 import Footer from './components/footer/Footer';

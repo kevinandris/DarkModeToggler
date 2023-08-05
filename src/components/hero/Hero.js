@@ -1,3 +1,4 @@
+// ! child class --> exported to App .js
 import React from 'react'
 import './Hero.css'
 import heroImg from '../../assets/phone.svg' 
