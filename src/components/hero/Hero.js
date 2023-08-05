@@ -17,7 +17,6 @@ const Hero = () => {
           </div>
         </div>
 
-
         <div className="hero-image --text-center">
           <img src={heroImg} alt="phone" width={200}/>
         </div>

@@ -3,9 +3,9 @@ import './Header.css'
 import logo from "../../assets/logo.png"
 import { FaMoon, FaSun } from "react-icons/fa"
 
-const Header = () => {
+const Header = ({myTheme, onToggleTheme}) => {
   return (
-    <header>
+    <header data-theme={myTheme}>
         <div className="container --flex-between">
 
             <div className="logo">
@@ -19,7 +19,7 @@ const Header = () => {
               </ul>
             </nav>
 
-            <div>
+            <div onClick={onToggleTheme}>
               <span className="toggle-btn">
                   <FaMoon color="pink" size={16}/>
                   <FaSun color="yellow" size={16}/>
