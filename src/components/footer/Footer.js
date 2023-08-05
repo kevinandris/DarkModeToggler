@@ -3,7 +3,9 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className='--flex-center'>
+      <p>Copyright &copy; 2023</p>
+    </footer>
   )
 }
 
