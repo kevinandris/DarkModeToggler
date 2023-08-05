@@ -3,7 +3,7 @@ import './Header.css'
 import logo from "../../assets/logo.png"
 import { FaMoon, FaSun } from "react-icons/fa"
 
-const Header = ({myTheme, onToggleTheme}) => {
+const Header = ({myTheme, onToggleTheme, onSwitch}) => {
   return (
     <header data-theme={myTheme}>
         <div className="container --flex-between">
@@ -23,7 +23,7 @@ const Header = ({myTheme, onToggleTheme}) => {
               <span className="toggle-btn">
                   <FaMoon color="pink" size={16}/>
                   <FaSun color="yellow" size={16}/>
-                  <div className="ball"></div>
+                  <div className={onSwitch ? "ball move" : "ball"}></div>
               </span>
             </div>
         </div>
