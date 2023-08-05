@@ -1,11 +1,11 @@
 import './App.scss';
-import Footer from './footer/Footer';
-import Header from './header/Header';
-import Hero from './hero/Hero';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import Hero from './components/hero/Hero';
 
 function App() {
   return (
-    <div className="App">
+    <div className="main">
         <Header />
         <Hero />
         <Footer />
