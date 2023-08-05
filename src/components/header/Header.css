@@ -1,0 +1,53 @@
+header {
+    position: relative;
+    background-color: var(--background);
+    width: 100%;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 1px;
+    width: 1000px;
+    background-color: var(--foreground);
+    transform: translateX(-50%);
+}
+
+nav a {
+    color: var(--foreground);
+}
+
+nav li {
+    list-style: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.toggle-btn {
+    width: 45px;
+    height: 23px;
+    border-radius: 50px;
+    padding: 5px;
+    transform: scale(1.5);
+
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+
+    background-color: #fff;
+    position: absolute;
+    transition: all .2s linear;
+}

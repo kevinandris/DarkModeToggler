@@ -6,14 +6,14 @@ import { FaMoon, FaSun } from "react-icons/fa"
 const Header = () => {
   return (
     <header>
-        <div className="container">
+        <div className="container --flex-between">
 
             <div className="logo">
-                <img src={logo} alt="logo" />
+                <img src={logo} alt="logo" width={170}/>
             </div>
 
             <nav>
-              <ul>
+              <ul className='--flex-between'>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
               </ul>
