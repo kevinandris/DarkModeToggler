@@ -16,8 +16,8 @@ function App() {
   return (
     <div className="main">
         <Header myTheme={theme} onToggleTheme={toggleTheme}/>
-        <Hero />
-        <Footer />
+        <Hero  myTheme={theme}/>
+        <Footer myTheme={theme}/>
     </div>
   );
 }

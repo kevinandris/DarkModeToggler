@@ -2,10 +2,10 @@ import React from 'react'
 import './Hero.css'
 import heroImg from '../../assets/phone.svg' 
 
-const Hero = () => {
+const Hero = ({myTheme}) => {
 
   return (
-    <section className='hero'>
+    <section className='hero' data-theme={myTheme}>
       <div className="container --grid-15">
         <div className="hero-text">
           <h1>Visit Vila Shop Landing Page</h1>
