@@ -1,7 +1,7 @@
 #   Project description:
     1) A frontend project using ReactJS.
-    2) Implemented a dark mode toggle on landing page located at navigation bar for users to change the colour
-       of the landing page to either dark and bright.
+    2) Implemented a dark mode toggle on landing page located at navigation bar 
+       for users to change the colour of the landing page to either dark and bright.
 
 #   Project images:
     1) Without dark mode:
